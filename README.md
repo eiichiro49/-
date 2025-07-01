@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 中学生でもわかる医療DX
 
-## Getting Started
+中学3年生にも分かりやすく作られた医療DX（デジタルトランスフォーメーション）のWebプレゼンテーションです。
 
-First, run the development server:
+## 🎯 概要
+
+このプレゼンテーションは、厚生労働省の「医療DX推進状況報告」と「電子処方箋・電子カルテ推進計画」の内容を基に、中学生でも理解できるよう平易な言葉と身近な例で説明しています。
+
+## 📚 内容
+
+1. **医療DXって何？** - 病院のデジタル化について
+2. **昔と今の病院の違い** - 変化の比較
+3. **マイナンバーカードが保険証に** - マイナ保険証の説明
+4. **電子処方箋** - 処方箋のデジタル化
+5. **電子カルテ** - 病院記録のデジタル化
+6. **中学生にとってのメリット** - 身近な例での説明
+7. **導入スケジュール** - いつまでに導入されるか
+8. **課題と対策** - 現在の問題点
+9. **まとめ** - 重要ポイントの振り返り
+
+## 🛠️ 技術仕様
+
+- **フレームワーク**: Next.js 15
+- **言語**: TypeScript
+- **スタイリング**: Tailwind CSS
+- **デプロイ**: Vercel
+
+## 🎨 特徴
+
+- **レスポンシブデザイン**: スマホ・タブレット・PCで最適表示
+- **インタラクティブ**: スライド形式で操作可能
+- **視覚的**: 絵文字と色彩豊かなデザイン
+- **分かりやすさ**: 中学生レベルの語彙で構成
+
+## 🚀 ローカル開発
 
 ```bash
+# 依存関係をインストール
+npm install
+
+# 開発サーバーを起動
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# ブラウザで http://localhost:3000 にアクセス
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📱 操作方法
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **矢印ボタン**: 前後のスライドへ移動
+- **インジケーター**: 特定のスライドに直接移動
+- **キーボード**: 左右矢印キーでも操作可能
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📖 参考資料
 
-## Learn More
+- 医療DX推進状況報告（令和7年7月1日 厚生労働省）
+- 電子処方箋・電子カルテの目標設定等について（令和7年7月1日 厚生労働省）
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🤖 Generated with [Claude Code](https://claude.ai/code)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Co-Authored-By: Claude <noreply@anthropic.com>
